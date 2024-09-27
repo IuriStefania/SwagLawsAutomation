@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T19:39:19 ART" name="Suite de pruebas" finished-at="2024-09-26T19:42:54 ART" duration-ms="215621">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T19:39:19 ART" name="Pruebas en Chrome" finished-at="2024-09-26T19:41:00 ART" duration-ms="100861">
+      <class name="Login.LoginUserFail">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginUserFail@268f106e]" started-at="2024-09-26T19:39:52 ART" name="casoPrueba" finished-at="2024-09-26T19:39:52 ART" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginUserFail@268f106e]" started-at="2024-09-26T19:39:52 ART" name="setUp" finished-at="2024-09-26T19:40:05 ART" duration-ms="12665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginUserFail()[pri:0, instance:Login.LoginUserFail@268f106e]" started-at="2024-09-26T19:40:05 ART" name="LoginUserFail" finished-at="2024-09-26T19:40:18 ART" duration-ms="13320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserFail -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginUserFail@268f106e]" started-at="2024-09-26T19:40:18 ART" name="closeDriver" finished-at="2024-09-26T19:40:19 ART" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginUserFail@268f106e]" started-at="2024-09-26T19:40:19 ART" name="tearDown" finished-at="2024-09-26T19:40:19 ART" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginUserFail -->
+      <class name="Login.LoginUserBloqueado">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginUserBloqueado@6e9a5ed8]" started-at="2024-09-26T19:40:19 ART" name="casoPrueba" finished-at="2024-09-26T19:40:19 ART" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginUserBloqueado@6e9a5ed8]" started-at="2024-09-26T19:40:19 ART" name="setUp" finished-at="2024-09-26T19:40:23 ART" duration-ms="4519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginUserBloqueado()[pri:0, instance:Login.LoginUserBloqueado@6e9a5ed8]" started-at="2024-09-26T19:40:23 ART" name="LoginUserBloqueado" finished-at="2024-09-26T19:40:39 ART" duration-ms="15313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserBloqueado -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginUserBloqueado@6e9a5ed8]" started-at="2024-09-26T19:40:39 ART" name="closeDriver" finished-at="2024-09-26T19:40:41 ART" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginUserBloqueado@6e9a5ed8]" started-at="2024-09-26T19:40:41 ART" name="tearDown" finished-at="2024-09-26T19:40:41 ART" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginUserBloqueado -->
+      <class name="CarritoCompras.ContinuarComprandoTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@7e057f43]" started-at="2024-09-26T19:40:41 ART" name="casoPrueba" finished-at="2024-09-26T19:40:41 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CarritoCompras.ContinuarComprandoTest@7e057f43]" started-at="2024-09-26T19:40:41 ART" name="setUp" finished-at="2024-09-26T19:40:44 ART" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continuarCompra()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@7e057f43]" started-at="2024-09-26T19:40:44 ART" name="continuarCompra" finished-at="2024-09-26T19:40:48 ART" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuarCompra -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@7e057f43]" started-at="2024-09-26T19:40:48 ART" name="closeDriver" finished-at="2024-09-26T19:40:48 ART" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@7e057f43]" started-at="2024-09-26T19:40:48 ART" name="tearDown" finished-at="2024-09-26T19:40:48 ART" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CarritoCompras.ContinuarComprandoTest -->
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginTest@14028087]" started-at="2024-09-26T19:39:19 ART" name="casoPrueba" finished-at="2024-09-26T19:39:19 ART" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginTest@14028087]" started-at="2024-09-26T19:39:19 ART" name="setUp" finished-at="2024-09-26T19:39:44 ART" duration-ms="25650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginExitoso()[pri:0, instance:Login.LoginTest@14028087]" started-at="2024-09-26T19:39:45 ART" name="LoginExitoso" finished-at="2024-09-26T19:39:51 ART" duration-ms="6050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginExitoso -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginTest@14028087]" started-at="2024-09-26T19:39:51 ART" name="closeDriver" finished-at="2024-09-26T19:39:51 ART" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginTest@14028087]" started-at="2024-09-26T19:39:51 ART" name="tearDown" finished-at="2024-09-26T19:39:52 ART" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginTest -->
+      <class name="CarritoCompras.EliminarProductoTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:CarritoCompras.EliminarProductoTest@6c284af]" started-at="2024-09-26T19:40:48 ART" name="casoPrueba" finished-at="2024-09-26T19:40:48 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CarritoCompras.EliminarProductoTest@6c284af]" started-at="2024-09-26T19:40:48 ART" name="setUp" finished-at="2024-09-26T19:40:53 ART" duration-ms="4677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="eliminarProducto()[pri:0, instance:CarritoCompras.EliminarProductoTest@6c284af]" started-at="2024-09-26T19:40:53 ART" name="eliminarProducto" finished-at="2024-09-26T19:40:59 ART" duration-ms="6325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarProducto -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:CarritoCompras.EliminarProductoTest@6c284af]" started-at="2024-09-26T19:40:59 ART" name="closeDriver" finished-at="2024-09-26T19:41:00 ART" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CarritoCompras.EliminarProductoTest@6c284af]" started-at="2024-09-26T19:41:00 ART" name="tearDown" finished-at="2024-09-26T19:41:00 ART" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CarritoCompras.EliminarProductoTest -->
+    </test> <!-- Pruebas en Chrome -->
+    <test started-at="2024-09-26T19:41:00 ART" name="Pruebas en Firefox" finished-at="2024-09-26T19:42:51 ART" duration-ms="110834">
+      <class name="Login.LoginUserFail">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginUserFail@4a8355dd]" started-at="2024-09-26T19:41:26 ART" name="casoPrueba" finished-at="2024-09-26T19:41:26 ART" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginUserFail@4a8355dd]" started-at="2024-09-26T19:41:26 ART" name="setUp" finished-at="2024-09-26T19:41:50 ART" duration-ms="23947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginUserFail()[pri:0, instance:Login.LoginUserFail@4a8355dd]" started-at="2024-09-26T19:41:50 ART" name="LoginUserFail" finished-at="2024-09-26T19:42:02 ART" duration-ms="12288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserFail -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginUserFail@4a8355dd]" started-at="2024-09-26T19:42:02 ART" name="closeDriver" finished-at="2024-09-26T19:42:04 ART" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginUserFail@4a8355dd]" started-at="2024-09-26T19:42:04 ART" name="tearDown" finished-at="2024-09-26T19:42:04 ART" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginUserFail -->
+      <class name="Login.LoginUserBloqueado">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginUserBloqueado@4d0d9fe7]" started-at="2024-09-26T19:42:04 ART" name="casoPrueba" finished-at="2024-09-26T19:42:04 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginUserBloqueado@4d0d9fe7]" started-at="2024-09-26T19:42:04 ART" name="setUp" finished-at="2024-09-26T19:42:10 ART" duration-ms="5692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginUserBloqueado()[pri:0, instance:Login.LoginUserBloqueado@4d0d9fe7]" started-at="2024-09-26T19:42:10 ART" name="LoginUserBloqueado" finished-at="2024-09-26T19:42:22 ART" duration-ms="12267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserBloqueado -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginUserBloqueado@4d0d9fe7]" started-at="2024-09-26T19:42:22 ART" name="closeDriver" finished-at="2024-09-26T19:42:24 ART" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginUserBloqueado@4d0d9fe7]" started-at="2024-09-26T19:42:24 ART" name="tearDown" finished-at="2024-09-26T19:42:24 ART" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginUserBloqueado -->
+      <class name="CarritoCompras.ContinuarComprandoTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@c430e6c]" started-at="2024-09-26T19:42:24 ART" name="casoPrueba" finished-at="2024-09-26T19:42:24 ART" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CarritoCompras.ContinuarComprandoTest@c430e6c]" started-at="2024-09-26T19:42:24 ART" name="setUp" finished-at="2024-09-26T19:42:29 ART" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continuarCompra()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@c430e6c]" started-at="2024-09-26T19:42:29 ART" name="continuarCompra" finished-at="2024-09-26T19:42:32 ART" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuarCompra -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@c430e6c]" started-at="2024-09-26T19:42:32 ART" name="closeDriver" finished-at="2024-09-26T19:42:34 ART" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CarritoCompras.ContinuarComprandoTest@c430e6c]" started-at="2024-09-26T19:42:34 ART" name="tearDown" finished-at="2024-09-26T19:42:34 ART" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CarritoCompras.ContinuarComprandoTest -->
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:Login.LoginTest@4c163e3]" started-at="2024-09-26T19:41:00 ART" name="casoPrueba" finished-at="2024-09-26T19:41:00 ART" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Login.LoginTest@4c163e3]" started-at="2024-09-26T19:41:00 ART" name="setUp" finished-at="2024-09-26T19:41:16 ART" duration-ms="15895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginExitoso()[pri:0, instance:Login.LoginTest@4c163e3]" started-at="2024-09-26T19:41:16 ART" name="LoginExitoso" finished-at="2024-09-26T19:41:19 ART" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginExitoso -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Login.LoginTest@4c163e3]" started-at="2024-09-26T19:41:19 ART" name="closeDriver" finished-at="2024-09-26T19:41:26 ART" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.LoginTest@4c163e3]" started-at="2024-09-26T19:41:26 ART" name="tearDown" finished-at="2024-09-26T19:41:26 ART" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login.LoginTest -->
+      <class name="CarritoCompras.EliminarProductoTest">
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:CarritoCompras.EliminarProductoTest@312aa7c]" started-at="2024-09-26T19:42:34 ART" name="casoPrueba" finished-at="2024-09-26T19:42:34 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CarritoCompras.EliminarProductoTest@312aa7c]" started-at="2024-09-26T19:42:34 ART" name="setUp" finished-at="2024-09-26T19:42:42 ART" duration-ms="8068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="eliminarProducto()[pri:0, instance:CarritoCompras.EliminarProductoTest@312aa7c]" started-at="2024-09-26T19:42:42 ART" name="eliminarProducto" finished-at="2024-09-26T19:42:49 ART" duration-ms="6905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarProducto -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:CarritoCompras.EliminarProductoTest@312aa7c]" started-at="2024-09-26T19:42:49 ART" name="closeDriver" finished-at="2024-09-26T19:42:51 ART" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CarritoCompras.EliminarProductoTest@312aa7c]" started-at="2024-09-26T19:42:51 ART" name="tearDown" finished-at="2024-09-26T19:42:51 ART" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CarritoCompras.EliminarProductoTest -->
+    </test> <!-- Pruebas en Firefox -->
+    <test started-at="2024-09-26T19:42:51 ART" name="Pruebas de API" finished-at="2024-09-26T19:42:54 ART" duration-ms="3433">
+      <class name="WebServices.WebServiceTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:39:18 ART" name="startReport" finished-at="2024-09-26T19:39:19 ART" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="casoPrueba()[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:42:51 ART" name="casoPrueba" finished-at="2024-09-26T19:42:51 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casoPrueba -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:42:51 ART" name="setUp" finished-at="2024-09-26T19:42:51 ART" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verificarDepartamentos()[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:42:51 ART" name="verificarDepartamentos" finished-at="2024-09-26T19:42:54 ART" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarDepartamentos -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:42:54 ART" name="closeDriver" finished-at="2024-09-26T19:42:54 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebServices.WebServiceTest@70cf32e3]" started-at="2024-09-26T19:42:54 ART" name="tearDown" finished-at="2024-09-26T19:42:54 ART" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebServices.WebServiceTest -->
+    </test> <!-- Pruebas de API -->
+  </suite> <!-- Suite de pruebas -->
+</testng-results>
